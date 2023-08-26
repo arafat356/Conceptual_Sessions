@@ -140,3 +140,25 @@
   /* improtant tag  */
   flex-direction: row-reverse;
 }
+
+/* our services start  */
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  width: 230px;
+  height: 250px;
+  box-shadow: 4px 4px 15px gray;
+  text-align: center;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 70px;
+}
