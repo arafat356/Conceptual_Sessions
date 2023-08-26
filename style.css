@@ -1,14 +1,34 @@
 * {
-  padding: 0%;
   margin: 0%;
+  padding: 0%;
 }
 
-.test {
-  color: darkcyan;
-  cursor: url("https://freepngimg.com/download/sad_emoji/36860-2-sad-emoji-transparent-image.png"),
-    auto;
+.menu-container {
+  /* padding: 20px; */
+  background-color: black;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.test:hover {
-  background-color: blueviolet;
+.logo-img {
+  width: 120px;
+}
+
+.menus {
+  display: flex;
+}
+
+.item {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 21px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.item:hover {
+  color: orange;
+  cursor: pointer;
 }

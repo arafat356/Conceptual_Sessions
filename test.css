@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.test {
+  color: rgb(126, 253, 6);
+  background-color: blue;
+  cursor: url("https://freepngimg.com/download/sad_emoji/36860-2-sad-emoji-transparent-image.png"),
+    auto;
+}
+
+.test:hover {
+  background-color: rgb(134, 122, 145);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* you can change the direction  */
+  /* flex-direction: row-reverse; */
+}
+
+.box {
+  padding: 20px;
+  background-color: red;
+  width: 120px;
+}
+
+.box2 {
+  background-color: orange;
+}
+
+.box3 {
+  background-color: darkcyan;
+}
