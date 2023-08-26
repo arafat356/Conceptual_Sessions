@@ -2,3 +2,13 @@
   padding: 0%;
   margin: 0%;
 }
+
+.test {
+  color: darkcyan;
+  cursor: url("https://freepngimg.com/download/sad_emoji/36860-2-sad-emoji-transparent-image.png"),
+    auto;
+}
+
+.test:hover {
+  background-color: blueviolet;
+}
