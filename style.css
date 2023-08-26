@@ -162,3 +162,38 @@
 .icon {
   width: 70px;
 }
+
+/* footer section  */
+
+.contact-details {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-size: cover;
+}
+
+.textarea {
+  width: 230px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+  box-shadow: 4px 4px 15px gray;
+}
+
+.hr {
+  margin-top: 200px;
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.full-footer {
+  background-image: url("./images/banner-background.jpg");
+  background-size: cover;
+}
